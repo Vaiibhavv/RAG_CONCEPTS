@@ -1,0 +1,14 @@
+[project]
+name = "rag-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.4.0",
+    "dotenv>=0.9.9",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.5",
+    "langchain-openai>=1.1.6",
+    "pypdf>=6.5.0",
+]
